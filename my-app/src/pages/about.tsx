@@ -9,7 +9,7 @@ const About: NextPage = () => {
         <title>About</title>
       </Head>
       <h1>About Us</h1>
-      <p>This is the about page.</p>
+      <p>This is about page.</p>
       <Link href="/" legacyBehavior>
         <a>Go back to Home Page</a>
       </Link>

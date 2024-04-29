@@ -7,7 +7,7 @@ const Home: NextPage = () => {
     <div>
       <h1>Hello, World!</h1>
       <Link href="/about" legacyBehavior>
-        <a>Go to Another Page</a>
+        <a>Go to About Page</a>
       </Link>
     </div>
   );
