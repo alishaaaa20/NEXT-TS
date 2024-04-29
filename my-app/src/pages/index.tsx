@@ -1,11 +1,16 @@
-import { NextPage } from "next";
+import type { NextPage } from "next";
+import Head from "next/head";
+import Link from "next/link";
 
-const HomePage: NextPage = () => {
+const Home: NextPage = () => {
   return (
     <div>
-      <h1>Welcome to my Next.js application with TypeScript!</h1>
+      <h1>Hello, World!</h1>
+      <Link href="/about" legacyBehavior>
+        <a>Go to Another Page</a>
+      </Link>
     </div>
   );
 };
 
-export default HomePage;
+export default Home;
